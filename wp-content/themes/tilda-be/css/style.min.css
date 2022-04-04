@@ -2304,69 +2304,69 @@ body.error404 .main-wrap {
 }
 
 .nav li:first-child {
-    left: -91px;
+    left: -105px;
     background-color: #0092ff
 }
 
 .is-first .nav li:first-child,.is-fourth .nav li:first-child,.is-second .nav li:first-child,.is-third .nav li:first-child {
     -webkit-transform: none;
     transform: none;
-    left: -91px
+    left: -105px
 }
 
 .nav li:nth-child(2) {
-    left: -47px;
+    left: -62px;
     background-color: #00C889
 }
 
 .is-fourth .nav li:nth-child(2),.is-second .nav li:nth-child(2),.is-third .nav li:nth-child(2) {
     -webkit-transform: none;
     transform: none;
-    left: -47px
+    left: -62px
 }
 
 .nav li:nth-child(3) {
-    left: -3px;
+    left: -19px;
     background-color: #A03DFF;
 }
 
 .is-fourth .nav li:nth-child(3),.is-third .nav li:nth-child(3) {
     -webkit-transform: none;
     transform: none;
-    left: -3px
+    left: -19px
 }
 
 .nav li:nth-child(4) {
-    left: 42px;
+    left: 25px;
     background-color: #FF0434
 }
 
 .is-fourth .nav li:nth-child(4) {
     -webkit-transform: none;
     transform: none;
-    left: 42px
+    left: 25px
 }
 
 .nav li:nth-child(5) {
-    left: 86px;
+    left: 69px;
     background-color: #FFC400
 }
 
 .is-fourth .nav li:nth-child(5) {
     -webkit-transform: none;
     transform: none;
-    left: 86px
+    left: 69px
 }
 
 .nav li:nth-child(6) {
-    left: 131px;
+    left: 113px;
     background-color: #ECF0F5
 }
 
 .is-fourth .nav li:nth-child(6) {
     -webkit-transform: none;
     transform: none;
-    left: 131px
+    left: 113px
 }
 
 .nav a {
