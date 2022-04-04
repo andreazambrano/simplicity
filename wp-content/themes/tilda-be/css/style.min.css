@@ -2304,69 +2304,69 @@ body.error404 .main-wrap {
 }
 
 .nav li:first-child {
-    left: -17px;
+    left: -91px;
     background-color: #0092ff
 }
 
 .is-first .nav li:first-child,.is-fourth .nav li:first-child,.is-second .nav li:first-child,.is-third .nav li:first-child {
     -webkit-transform: none;
     transform: none;
-    left: 0
+    left: -91px
 }
 
 .nav li:nth-child(2) {
-    left: 27px;
+    left: -47px;
     background-color: #00C889
 }
 
 .is-fourth .nav li:nth-child(2),.is-second .nav li:nth-child(2),.is-third .nav li:nth-child(2) {
     -webkit-transform: none;
     transform: none;
-    left: 44px
+    left: -47px
 }
 
 .nav li:nth-child(3) {
-    left: 71px;
+    left: -3px;
     background-color: #A03DFF;
 }
 
 .is-fourth .nav li:nth-child(3),.is-third .nav li:nth-child(3) {
     -webkit-transform: none;
     transform: none;
-    left: 88px
+    left: -3px
 }
 
 .nav li:nth-child(4) {
-    left: 115px;
+    left: 42px;
     background-color: #FF0434
 }
 
 .is-fourth .nav li:nth-child(4) {
     -webkit-transform: none;
     transform: none;
-    left: 132px
+    left: 42px
 }
 
 .nav li:nth-child(5) {
-    left: 115px;
+    left: 86px;
     background-color: #FFC400
 }
 
-.is-fourth .nav li:nth-child(4) {
+.is-fourth .nav li:nth-child(5) {
     -webkit-transform: none;
     transform: none;
-    left: 132px
+    left: 86px
 }
 
 .nav li:nth-child(6) {
-    left: 115px;
+    left: 131px;
     background-color: #ECF0F5
 }
 
-.is-fourth .nav li:nth-child(4) {
+.is-fourth .nav li:nth-child(6) {
     -webkit-transform: none;
     transform: none;
-    left: 132px
+    left: 131px
 }
 
 .nav a {
