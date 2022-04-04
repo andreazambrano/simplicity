@@ -295,7 +295,8 @@ body {
 
 @media (min-width: 1024px) {
     body {
-        padding-top:110px
+       /* padding-top:110px*/
+       padding-top:0px
     }
 }
 
@@ -766,14 +767,14 @@ html.disable-scrolling {
     left: 0;
     right: 0;
     z-index: 101;
-    padding-top: 28px;
+    /*padding-top: 28px;*/
     padding-bottom: 28px;
     background-color: #f2f0ec
 }
 
 @media (min-width: 1024px) {
     .page-header {
-        padding-top:35px;
+       /* padding-top:35px;*/
         padding-bottom: 26px
     }
 
@@ -2388,7 +2389,8 @@ body.error404 .main-wrap {
 @media (min-width: 1024px) {
     .nav {
         position:fixed;
-        top: 110px;
+        /*top: 110px;*/
+        top: 0px;
         left: 0;
         right: 0;
         bottom: 0;
