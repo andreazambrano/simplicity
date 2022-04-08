@@ -295,7 +295,7 @@ body {
 
 @media (min-width: 1024px) {
     body {
-        padding-top:110px
+        padding-top:5px
     }
 }
 
@@ -833,8 +833,8 @@ html.disable-scrolling {
 
     body .page-header__logo {
         position: relative;
-        margin-top: -25px;
-        top: 25px
+       
+        /*top: 25px*/
     }
 
     .is-fifth .page-header__logo,.is-first .page-header__logo,.is-fourth .page-header__logo,.is-second .page-header__logo,.is-third .page-header__logo {
@@ -1079,7 +1079,7 @@ html.disable-scrolling {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        height: calc(100vh - 110px);
+        height: calc(105vh - 240px);
         max-width: 1110px
     }
 }
@@ -2383,7 +2383,7 @@ body.error404 .main-wrap {
 @media (min-width: 1024px) {
     .nav {
         position:fixed;
-        top: 110px;
+        top: 0px;
         left: 0;
         right: 0;
         bottom: 0;
