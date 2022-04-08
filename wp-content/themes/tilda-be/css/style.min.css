@@ -823,7 +823,8 @@ html.disable-scrolling {
 
 @media (min-width: 1024px) {
     .page-header__logo {
-        width:317px
+    width: 200px;
+    margin-left: 40px;
     }
 
     .is-scrolling .page-header__logo {
@@ -1141,13 +1142,14 @@ html.disable-scrolling {
 @media (min-width: 768px) {
     .home__copy {
         width:45%;
-        max-width: 400px
+        /*max-width: 400px*/
     }
 }
 
 @media (min-width: 1280px) {
     .home__copy h1 {
         margin-bottom:55px
+        width: 137%;
     }
 
     .home__copy p:not(:last-child) {
@@ -2239,7 +2241,7 @@ body.error404 .main-wrap {
 }
 
 .btn {
-    padding: 5px 50px 5px 25px;
+    padding: 5px 10px 5px 10px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2252,14 +2254,17 @@ body.error404 .main-wrap {
     line-height: 1;
     white-space: nowrap;
     border-radius: 30px;
-    background-color: #a9c8ff;
-    background-image: url(../img/icon-arrow-top-right.svg);
+    background-color: #fff;
+    /*background-image: url(../img/video.png);*/
     background-repeat: no-repeat;
     background-size: 18px 18px;
     background-position: right 25px center;
     -webkit-transition: all .3s ease-in-out;
+    color: #000;
     transition: all .3s ease-in-out
+
 }
+
 
 @media (hover: hover) {
     .btn:focus,.btn:hover {
