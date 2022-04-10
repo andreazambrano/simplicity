@@ -2801,7 +2801,8 @@ body.error404 .main-wrap {
 
 @media (min-width: 1024px) {
     .about-hello {
-        padding-top:82px
+        padding-top: 25%;
+        padding-bottom: 20%;
     }
 }
 
@@ -2980,7 +2981,7 @@ body.error404 .main-wrap {
         display: flex;
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-        justify-content: space-between
+        justify-content: right
     }
 }
 
