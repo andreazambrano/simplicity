@@ -1,6 +1,6 @@
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
-    font-family: sans-serif;
+    font-family:'Poppins', sans-serif
     line-height: 1.15;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
@@ -35,7 +35,7 @@ hr {
 }
 
 pre {
-    font-family: monospace,monospace;
+    font-family: 'Poppins', sans-serif;
     font-size: 1em
 }
 
@@ -61,7 +61,7 @@ b,strong {
 }
 
 code,kbd,samp {
-    font-family: monospace,monospace;
+    font-family: 'Poppins', sans-serif;
     font-size: 1em
 }
 
@@ -368,7 +368,9 @@ body {
 img {
     display: block;
     height: auto;
-    max-width: 100%
+    max-width: 100%;
+    padding-bottom: 15px;
+
 }
 
 a {
@@ -397,7 +399,7 @@ button {
 }
 
 .wpcf7,.wpcf7-form-control {
-    font-family: Founders Grotesk,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,sans-serif
+    font-family: poppins,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,sans-serif
 }
 
 .awwwards--top {
@@ -429,75 +431,75 @@ button {
 }
 
 @font-face {
-    font-family: Founders Grotesk;
-    src: url(../fonts/founders-grotesk-web-regular.woff2) format("woff2"),url(../fonts/founders-grotesk-web-regular.woff) format("woff");
+    font-family: poppins;
+    src: url(../fonts/Poppins-ThinItalic.ttf) format("ttf"),url(../fonts/Poppins-regular.woff) format("woff");
     font-display: swap;
     font-weight: 400
 }
 
 @font-face {
-    font-family: Founders Grotesk;
-    src: url(../fonts/founders-grotesk-web-regular-italic.woff2) format("woff2"),url(../fonts/founders-grotesk-web-regular-italic.woff) format("woff");
+    font-family: poppins;
+    src: url(../fonts/Poppins-regular-italic.ttf) format("ttf"),url(../fonts/Poppins-regular-italic.woff) format("woff");
     font-display: swap;
     font-weight: 400;
     font-style: italic
 }
 
 @font-face {
-    font-family: Founders Grotesk;
-    src: url(../fonts/founders-grotesk-web-light.woff2) format("woff2"),url(../fonts/founders-grotesk-web-light.woff) format("woff");
+    font-family: poppins;
+    src: url(../fonts/Poppins-light.ttf) format("ttf"),url(../fonts/Poppins-light.woff) format("woff");
     font-display: swap;
     font-weight: 300
 }
 
 @font-face {
-    font-family: Founders Grotesk;
-    src: url(../fonts/founders-grotesk-web-light-italic.woff2) format("woff2"),url(../fonts/founders-grotesk-web-light-italic.woff) format("woff");
+    font-family: poppins;
+    src: url(../fonts/Poppins-light-italic.ttf) format("ttf"),url(../fonts/Poppins-light-italic.woff) format("woff");
     font-display: swap;
     font-weight: 300;
     font-style: italic
 }
 
 @font-face {
-    font-family: Founders Grotesk;
-    src: url(../fonts/founders-grotesk-web-bold.woff2) format("woff2"),url(../fonts/founders-grotesk-web-bold.woff) format("woff");
+    font-family: poppins;
+    src: url(../fonts/Poppins-bold.ttf) format("ttf"),url(../fonts/Poppins-bold.woff) format("woff");
     font-display: swap;
     font-weight: 700
 }
 
 @font-face {
-    font-family: Founders Grotesk;
-    src: url(../fonts/founders-grotesk-web-bold-italic.woff2) format("woff2"),url(../fonts/founders-grotesk-web-bold-italic.woff) format("woff");
+    font-family: poppins;
+    src: url(../fonts/Poppins-bold-italic.ttf) format("ttf"),url(../fonts/Poppins-bold-italic.woff) format("woff");
     font-display: swap;
     font-weight: 700;
     font-style: italic
 }
 
 @font-face {
-    font-family: Founders Grotesk;
-    src: url(../fonts/founders-grotesk-web-semibold.woff2) format("woff2"),url(../fonts/founders-grotesk-web-semibold.woff) format("woff");
+    font-family: poppins;
+    src: url(../fonts/Poppins-semibold.ttf) format("ttf"),url(../fonts/Poppins-semibold.woff) format("woff");
     font-display: swap;
     font-weight: 600
 }
 
 @font-face {
-    font-family: Founders Grotesk;
-    src: url(../fonts/founders-grotesk-web-semibold-italic.woff2) format("woff2"),url(../fonts/founders-grotesk-web-semibold-italic.woff) format("woff");
+    font-family: poppins;
+    src: url(../fonts/Poppins-semibold-italic.ttf) format("ttf"),url(../fonts/Poppins-semibold-italic.woff) format("woff");
     font-display: swap;
     font-weight: 600;
     font-style: italic
 }
 
 @font-face {
-    font-family: Founders Grotesk;
-    src: url(../fonts/founders-grotesk-web-medium.woff2) format("woff2"),url(../fonts/founders-grotesk-web-medium.woff) format("woff");
+    font-family: poppins;
+    src: url(../fonts/Poppins-medium.ttf) format("ttf"),url(../fonts/Poppins-medium.woff) format("woff");
     font-display: swap;
     font-weight: 500
 }
 
 @font-face {
-    font-family: Founders Grotesk;
-    src: url(../fonts/founders-grotesk-web-medium-italic.woff2) format("woff2"),url(../fonts/founders-grotesk-web-medium-italic.woff) format("woff");
+    font-family: poppins;
+    src: url(../fonts/Poppins-medium-italic.ttf) format("ttf"),url(../fonts/Poppins-medium-italic.woff) format("woff");
     font-display: swap;
     font-weight: 500;
     font-style: italic
@@ -509,7 +511,7 @@ html {
 
 body {
     color: #000;
-    font: normal 2rem/1.2 Founders Grotesk,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,sans-serif
+    font: normal 2rem/1.2 poppins,sans-serif
 }
 
 .heading-lg {
@@ -589,8 +591,8 @@ p:last-of-type {
 
 @media (min-width: 1280px) {
     .container {
-        padding-left:65px;
-        padding-right: 65px
+    padding-left: 35px;
+    padding-right: 107px;
     }
 }
 
@@ -1294,7 +1296,7 @@ html.disable-scrolling {
     padding-right: 50px;
     width: 100%;
     color: #f2f0ec;
-    font-family: Founders Grotesk,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: poppins,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,sans-serif;
     outline: none;
     border: none;
     border-bottom: 1px solid #f2f0ec;
@@ -1651,7 +1653,7 @@ html.disable-scrolling {
 }
 
 .about-inner p {
-    margin-bottom: 25px
+    margin-bottom: 5px
 }
 
 .about-inner p:last-of-type {
@@ -1850,7 +1852,7 @@ html.disable-scrolling {
     margin-left: auto;
     margin-right: auto;
     padding: 35px 30px 77px;
-    font-family: Founders Grotesk,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,sans-serif
+    font-family: poppins,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,sans-serif
 }
 
 .contact h1 {
@@ -1913,7 +1915,7 @@ html.disable-scrolling {
     border: none;
     border-radius: 0!important;
     outline: rgba(0,0,0,.4);
-    font-family: Founders Grotesk,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,sans-serif
+    font-family: poppins,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,sans-serif
 }
 
 .form__input-wrap .form__input.placeholder {
@@ -2047,7 +2049,7 @@ html.disable-scrolling {
     border: none;
     width: 100%;
     outline: none;
-    font-family: Founders Grotesk,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,sans-serif
+    font-family: poppins,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,sans-serif
 }
 
 .wpcf7 form.invalid .wpcf7-response-output,.wpcf7 form.unaccepted .wpcf7-response-output {
@@ -2896,6 +2898,7 @@ body.error404 .main-wrap {
 @media (min-width: 1024px) {
     .about-community {
         margin-bottom:100px
+        margin-top: 10%;
     }
 }
 
@@ -3023,8 +3026,8 @@ body.error404 .main-wrap {
 
 @media (min-width: 1280px) {
     .about-founder__content {
-        width:calc(42% + 40px);
-        max-width: calc(42% + 40px)
+        width:calc(50% + 40px);
+        max-width: calc(50% + 40px)
     }
 }
 
@@ -3489,7 +3492,7 @@ body.error404 .main-wrap {
     padding: 0 40px;
     border-radius: 30px;
     font-weight: 500;
-    font-family: Founders Grotesk,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: poppins,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,sans-serif;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out
 }
@@ -3684,3 +3687,94 @@ body.error404 .main-wrap {
 }
 
 /*# sourceMappingURL=maps/style.min.css.map */
+
+.cuerpo-poppins-—-18pt {
+font-family: var(--unnamed-font-family-poppins);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-18);
+line-height: var(--unnamed-line-spacing-27);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-000000);
+}
+.cuerpo-poppins-—-18pt {
+font-family: var(--unnamed-font-family-poppins);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-18);
+line-height: var(--unnamed-line-spacing-27);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-ffffff);
+}
+.subtitle-poppins-—-21pt {
+font-family: var(--unnamed-font-family-poppins);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-21);
+line-height: var(--unnamed-line-spacing-31);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-000000);
+}
+.subtitle-poppins-—-21pt {
+font-family: var(--unnamed-font-family-poppins);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-21);
+line-height: var(--unnamed-line-spacing-31);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-ffffff);
+}
+.heading-sections-poppins-72pt {
+font-family: var(--unnamed-font-family-poppins);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-600);
+font-size: var(--unnamed-font-size-72);
+line-height: var(--unnamed-line-spacing-70);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-000000);
+}
+.hero-sections-alt-poppins-—-72pt {
+font-family: var(--unnamed-font-family-poppins);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-600);
+font-size: var(--unnamed-font-size-72);
+line-height: var(--unnamed-line-spacing-70);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-ffffff);
+}
+.hero-heading-poppins-—-64pt {
+font-family: var(--unnamed-font-family-poppins);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-600);
+font-size: var(--unnamed-font-size-64);
+line-height: var(--unnamed-line-spacing-64);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-000000);
+}
+.hero-heading-alt-poppins-—-64pt {
+font-family: var(--unnamed-font-family-poppins);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-600);
+font-size: var(--unnamed-font-size-64);
+line-height: var(--unnamed-line-spacing-64);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-ffffff);
+}
+.unnamed-character-style-1 {
+font-family: var(--unnamed-font-family-poppins);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-600);
+font-size: var(--unnamed-font-size-24);
+line-height: var(--unnamed-line-spacing-35);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-000000);
+}
+.unnamed-character-style-2 {
+font-family: var(--unnamed-font-family-poppins);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-600);
+font-size: var(--unnamed-font-size-24);
+line-height: var(--unnamed-line-spacing-30);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-ffffff);
+}
