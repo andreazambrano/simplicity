@@ -328,7 +328,7 @@ body {
 
 .main-inner {
     position: relative;
-    width: 100%;
+    width: 92%;
     overflow: hidden
 }
 
@@ -2984,7 +2984,7 @@ body.error404 .main-wrap {
         display: flex;
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-        justify-content: right
+        justify-content: center;
     }
 }
 
