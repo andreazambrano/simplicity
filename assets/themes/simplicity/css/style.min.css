@@ -1,6 +1,6 @@
-/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+
 html {
-    font-family:'Poppins', sans-serif
+    font-family:'Poppins';
     line-height: 1.15;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
@@ -399,7 +399,7 @@ button {
 }
 
 .wpcf7,.wpcf7-form-control {
-    font-family: poppins,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,sans-serif
+    font-family: poppins,Poppins-Bold,Poppins-Bolditalic,Poppins-ExtraBold,Poppins-ExtraBold,Poppins-Italic,Poppins-light, Poppins-Medium, Poppins-Thin,sans-serif;
 }
 
 .awwwards--top {
@@ -1296,7 +1296,7 @@ html.disable-scrolling {
     padding-right: 50px;
     width: 100%;
     color: #f2f0ec;
-    font-family: poppins,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: poppins,Poppins-Bold,Poppins-Bolditalic,Poppins-ExtraBold,Poppins-ExtraBold,Poppins-Italic,Poppins-light, Poppins-Medium, Poppins-Thin,sans-serif;
     outline: none;
     border: none;
     border-bottom: 1px solid #f2f0ec;
@@ -1653,7 +1653,8 @@ html.disable-scrolling {
 }
 
 .about-inner p {
-    margin-bottom: 5px
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .about-inner p:last-of-type {
@@ -1852,7 +1853,7 @@ html.disable-scrolling {
     margin-left: auto;
     margin-right: auto;
     padding: 35px 30px 77px;
-    font-family: poppins,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,sans-serif
+    font-family: poppins,Poppins-Bold,Poppins-Bolditalic,Poppins-ExtraBold,Poppins-ExtraBold,Poppins-Italic,Poppins-light, Poppins-Medium, Poppins-Thin,sans-serif
 }
 
 .contact h1 {
@@ -1915,7 +1916,7 @@ html.disable-scrolling {
     border: none;
     border-radius: 0!important;
     outline: rgba(0,0,0,.4);
-    font-family: poppins,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,sans-serif
+    font-family: poppins,Poppins-Bold,Poppins-Bolditalic,Poppins-ExtraBold,Poppins-ExtraBold,Poppins-Italic,Poppins-light, Poppins-Medium, Poppins-Thin,sans-serif
 }
 
 .form__input-wrap .form__input.placeholder {
@@ -2049,7 +2050,7 @@ html.disable-scrolling {
     border: none;
     width: 100%;
     outline: none;
-    font-family: poppins,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,sans-serif
+    font-family: poppins,Poppins-Bold,Poppins-Bolditalic,Poppins-ExtraBold,Poppins-ExtraBold,Poppins-Italic,Poppins-light, Poppins-Medium, Poppins-Thin,sans-serif
 }
 
 .wpcf7 form.invalid .wpcf7-response-output,.wpcf7 form.unaccepted .wpcf7-response-output {
@@ -2283,10 +2284,10 @@ body.error404 .main-wrap {
 
 @media (min-width: 768px) {
     .btn {
-        padding-left:33px;
-        padding-right: 70px;
-        font-size: 2.6rem;
-        background-position: right 33px center
+        padding-left: 33px;
+    padding-right: 33px;
+    font-size: 2.6rem;
+    background-position: center;
     }
 }
 
@@ -3025,8 +3026,8 @@ body.error404 .main-wrap {
 
 @media (min-width: 1280px) {
     .about-founder__content {
-        width:calc(50% + 40px);
-        max-width: calc(50% + 40px)
+        width: calc(55% + 50px);
+        max-width: calc(55% + 50px);
     }
 }
 
@@ -3491,7 +3492,7 @@ body.error404 .main-wrap {
     padding: 0 40px;
     border-radius: 30px;
     font-weight: 500;
-    font-family: poppins,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: poppins,Poppins-Bold,Poppins-Bolditalic,Poppins-ExtraBold,Poppins-ExtraBold,Poppins-Italic,Poppins-light, Poppins-Medium, Poppins-Thin,sans-serif;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out
 }

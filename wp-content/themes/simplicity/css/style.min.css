@@ -432,14 +432,14 @@ button {
 
 @font-face {
     font-family: poppins;
-    src: url(../fonts/Poppins-ThinItalic.ttf) format("ttf"),url(../fonts/Poppins-regular.woff) format("woff");
+    src: url(../fonts/Poppins-ThinItalic.ttf) format("ttf"),url(../fonts/Poppins-regular.ttf) format("ttf");
     font-display: swap;
     font-weight: 400
 }
 
 @font-face {
     font-family: poppins;
-    src: url(../fonts/Poppins-regular-italic.ttf) format("ttf"),url(../fonts/Poppins-regular-italic.woff) format("woff");
+    src: url(../fonts/Poppins-regular-italic.ttf) format("ttf"),url(../fonts/Poppins-regular-italic.ttf) format("ttf");
     font-display: swap;
     font-weight: 400;
     font-style: italic
@@ -447,14 +447,14 @@ button {
 
 @font-face {
     font-family: poppins;
-    src: url(../fonts/Poppins-light.ttf) format("ttf"),url(../fonts/Poppins-light.woff) format("woff");
+    src: url(../fonts/Poppins-light.ttf) format("ttf"),url(../fonts/Poppins-light.ttf) format("ttf");
     font-display: swap;
     font-weight: 300
 }
 
 @font-face {
     font-family: poppins;
-    src: url(../fonts/Poppins-light-italic.ttf) format("ttf"),url(../fonts/Poppins-light-italic.woff) format("woff");
+    src: url(../fonts/Poppins-light-italic.ttf) format("ttf"),url(../fonts/Poppins-light-italic.ttf) format("ttf");
     font-display: swap;
     font-weight: 300;
     font-style: italic
@@ -462,14 +462,14 @@ button {
 
 @font-face {
     font-family: poppins;
-    src: url(../fonts/Poppins-bold.ttf) format("ttf"),url(../fonts/Poppins-bold.woff) format("woff");
+    src: url(../fonts/Poppins-bold.ttf) format("ttf"),url(../fonts/Poppins-bold.ttf) format("ttf");
     font-display: swap;
     font-weight: 700
 }
 
 @font-face {
     font-family: poppins;
-    src: url(../fonts/Poppins-bold-italic.ttf) format("ttf"),url(../fonts/Poppins-bold-italic.woff) format("woff");
+    src: url(../fonts/Poppins-bold-italic.ttf) format("ttf"),url(../fonts/Poppins-bold-italic.ttf) format("ttf");
     font-display: swap;
     font-weight: 700;
     font-style: italic
@@ -477,14 +477,14 @@ button {
 
 @font-face {
     font-family: poppins;
-    src: url(../fonts/Poppins-semibold.ttf) format("ttf"),url(../fonts/Poppins-semibold.woff) format("woff");
+    src: url(../fonts/Poppins-semibold.ttf) format("ttf"),url(../fonts/Poppins-semibold.ttf) format("ttf");
     font-display: swap;
     font-weight: 600
 }
 
 @font-face {
     font-family: poppins;
-    src: url(../fonts/Poppins-semibold-italic.ttf) format("ttf"),url(../fonts/Poppins-semibold-italic.woff) format("woff");
+    src: url(../fonts/Poppins-semibold-italic.ttf) format("ttf"),url(../fonts/Poppins-semibold-italic.ttf) format("ttf");
     font-display: swap;
     font-weight: 600;
     font-style: italic
@@ -492,14 +492,14 @@ button {
 
 @font-face {
     font-family: poppins;
-    src: url(../fonts/Poppins-medium.ttf) format("ttf"),url(../fonts/Poppins-medium.woff) format("woff");
+    src: url(../fonts/Poppins-medium.ttf) format("ttf"),url(../fonts/Poppins-medium.ttf) format("ttf");
     font-display: swap;
     font-weight: 500
 }
 
 @font-face {
     font-family: poppins;
-    src: url(../fonts/Poppins-medium-italic.ttf) format("ttf"),url(../fonts/Poppins-medium-italic.woff) format("woff");
+    src: url(../fonts/Poppins-medium-italic.ttf) format("ttf"),url(../fonts/Poppins-medium-italic.ttf) format("ttf");
     font-display: swap;
     font-weight: 500;
     font-style: italic
