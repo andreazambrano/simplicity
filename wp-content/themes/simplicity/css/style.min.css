@@ -2394,6 +2394,26 @@ body.error404 .main-wrap {
     line-height: 1;
     font-weight: 500;
 }
+.is-seventh .nav li:nth-child(7) {
+    -webkit-transform: none;
+    transform: none;
+    left: 113px
+}
+
+.nav a {
+    padding:30px 0 0 0;
+    font-size: 2.4rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    line-height: 1;
+    font-weight: 500;
+}
 
 @media (min-width: 1024px) {
     .nav {

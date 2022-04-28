@@ -1853,10 +1853,21 @@ html.disable-scrolling {
     margin-left: auto;
     margin-right: auto;
     padding: 35px 30px 77px;
-    font-family: Poppins,Poppins-Bold,Poppins-Bolditalic,Poppins-ExtraBold,Poppins-ExtraBold,Poppins-Italic,Poppins-light, Poppins-Medium, Poppins-Thin,sans-serif
+    font-family: Poppins,sans-serif
 }
 
 .contact h1 {
+    margin-bottom: 33px
+}
+.contact1 {
+    max-width: 1037px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 35px 30px 77px;
+    font-family: Poppins,sans-serif
+}
+
+.contact1 h1 {
     margin-bottom: 33px
 }
 
@@ -1869,11 +1880,16 @@ html.disable-scrolling {
         -ms-flex-pack: justify;
         justify-content: space-between
     }
+
 }
 
 .contact-form__content p {
     max-width: 328px;
     margin-bottom: 43px
+}
+.contact-form__content1 p {
+        width: calc(100% - 172px);
+    max-width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -1881,10 +1897,18 @@ html.disable-scrolling {
         width:calc(100% - 350px);
         max-width: 43%
     }
+    .contact-form__content1 {
+        width:calc(100% - 350px);
+        max-width: 43%
+    }
 }
 
 @media (min-width: 1024px) {
     .contact-form__content {
+        width:calc(100% - 473px);
+        max-width: 43%
+    }
+    .contact-form__content1 {
         width:calc(100% - 473px);
         max-width: 43%
     }
@@ -2376,6 +2400,26 @@ body.error404 .main-wrap {
 }
 
 .is-sixth .nav li:nth-child(6) {
+    -webkit-transform: none;
+    transform: none;
+    left: 113px
+}
+
+.nav a {
+    padding:30px 0 0 0;
+    font-size: 2.4rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    line-height: 1;
+    font-weight: 500;
+}
+.is-seventh .nav li:nth-child(7) {
     -webkit-transform: none;
     transform: none;
     left: 113px
